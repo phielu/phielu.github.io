@@ -1,0 +1,669 @@
+.bilen-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.bilen-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  margin-right: 50px;
+  margin-left: 50px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.navbar {
+  background-color: transparent;
+  color: #fff;
+}
+
+.container {
+  display: block;
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+.bilen-nav {
+  color: #000;
+  font-weight: 700;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.body {
+  font-family: Jura, sans-serif;
+  font-weight: 400;
+}
+
+.bilen-logo {
+  font-family: Jura, sans-serif;
+  color: #000;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.brand {
+  z-index: 200;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 18px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+}
+
+.bilen-navbar-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-menu {
+  z-index: 100;
+  display: block;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: flex-end;
+  -ms-flex-line-pack: end;
+  align-content: flex-end;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: transparent;
+}
+
+.heading {
+  color: rgba(0, 0, 0, .94);
+  text-align: left;
+}
+
+.div-block-3 {
+  display: inline-block;
+  margin-right: 51px;
+  float: right;
+  clear: both;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-align-content: flex-end;
+  -ms-flex-line-pack: end;
+  align-content: flex-end;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: right;
+}
+
+.menu-button {
+  z-index: 200;
+  background-color: hsla(0, 0%, 100%, 0);
+}
+
+.menu-button.w--open {
+  border-style: none;
+  background-color: transparent;
+}
+
+.text-block {
+  font-family: Inconsolata, monospace;
+  color: #a3a3a3;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.logo-line {
+  width: 25px;
+  height: 4px;
+  margin-top: 8px;
+  background-color: #000;
+}
+
+.bilen-social-links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 17px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.image {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.image-3 {
+  margin-right: 15px;
+}
+
+.bilen-header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -2px;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.bilen-footer {
+  display: block;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.bilen-landing-content {
+  position: absolute;
+  display: none;
+  text-align: left;
+}
+
+.bilen-about-content {
+  position: absolute;
+  display: none;
+  color: #fff;
+}
+
+.bilen-portfolio-content {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  color: #fff;
+}
+
+.container-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.bilen-port-slider-container {
+  width: 50%;
+}
+
+.slider {
+  background-color: transparent;
+}
+
+.slide-nav {
+  display: none;
+}
+
+.left-arrow {
+  position: static;
+  background-color: transparent;
+}
+
+.bilen {
+  color: #ff336c;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.bilen-slider-nav {
+  margin-top: 4px;
+  -webkit-transform: rotateX(0deg) rotateY(20deg) rotateZ(90deg);
+  transform: rotateX(0deg) rotateY(20deg) rotateZ(90deg);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+  color: #262b3f;
+  font-size: 18px;
+  font-weight: 100;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.bilen-slider-nav:hover {
+  color: #fff;
+}
+
+.right-arrow {
+  position: static;
+}
+
+.div-block-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.mask {
+  padding: 18px;
+  border: 1px solid #262b3f;
+  border-radius: 4px;
+}
+
+.bilen-contact-content {
+  position: absolute;
+  display: none;
+}
+
+.bilen-card {
+  width: 520px;
+  height: 200px;
+  border: 1px solid #49a0ff;
+  border-radius: 4px;
+  color: #c24242;
+}
+
+.icon {
+  color: #000;
+}
+
+.container-3 {
+  padding-top: 100px;
+}
+
+.div-block-6 {
+  display: block;
+  border-radius: 100%;
+}
+
+.bilen-name-and-photo-c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image-4 {
+  border: 1px solid #858ea8;
+  border-radius: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.text-block-2 {
+  margin-bottom: -10px;
+  direction: ltr;
+  font-family: Inconsolata, monospace;
+  color: #a3a3a3;
+  font-size: 12px;
+  font-weight: 100;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.div-block-7 {
+  padding-left: 20px;
+}
+
+.div-block-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.div-block-9 {
+  width: 50px;
+  height: 4px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  background-color: #eb719c;
+}
+
+.bilen-portfolio-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.bilen-portfolio-item {
+  width: 250px;
+  height: 270px;
+  margin-bottom: 50px;
+  padding: 1px;
+  border: 1px solid #e6e6e6;
+  border-radius: 1px;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+
+.bilen-portfolio-item:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.bilen-portfolio-item.bilen-project-detail-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.text-block-3 {
+  font-family: Inconsolata, monospace;
+  color: #555b63;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.bilen-portfolio-image-c {
+  margin-bottom: 10px;
+}
+
+.bilen-portfolio-image-c:hover {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: perspective(696px);
+  transform: perspective(696px);
+}
+
+.bilen-fortfolio-text-c {
+  padding: 10px;
+}
+
+.text-block-4 {
+  font-family: Inconsolata, monospace;
+  color: #a3a3a3;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.bilen-project-detail {
+  margin-bottom: 200px;
+}
+
+.div-block-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 18px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: space-around;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+}
+
+@media (max-width: 991px) {
+  .bilen-nav {
+    padding-right: 0px;
+    text-align: right;
+  }
+  .bilen-logo {
+    font-size: 30px;
+  }
+  .bilen-navbar-container {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .div-block-3 {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bilen-content {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 18px;
+  }
+  .bilen-nav {
+    padding-right: 0px;
+    text-align: right;
+  }
+  .div-block-3 {
+    margin-right: 20px;
+  }
+  .bilen-port-slider-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 479px) {
+  .bilen-content {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .bilen-nav {
+    padding-right: 0px;
+    text-align: right;
+  }
+  .bilen-logo {
+    font-size: 25px;
+  }
+  .nav-menu {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .heading {
+    text-align: left;
+  }
+  .div-block-3 {
+    margin-right: 20px;
+  }
+  .text-block {
+    text-align: left;
+  }
+  .bilen-header {
+    font-size: 28px;
+  }
+  .bilen-name-and-photo-c {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .text-block-2 {
+    font-size: 12px;
+  }
+}
+
